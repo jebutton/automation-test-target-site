@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style/main.css">
+        <title>Test Web Page for Exploring Selenium Code in new languges</title>
+        <script src="./scripts/actions.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="index_page_title" class="page_header">Test Site for learning Selenium in new Languages</div>
+            <div id="index_page_subtitle" class="page_subtitle">By Jaccqueline Button</div>
+        </header>
+        <div id="index_body" class="page_body">
+            <div id="index_left_column" class="left_column">
+                <h1 class="left_column_header">Links</h1>
+                <a class="left_column_link" href="./pages/second_page.html">Active Link to Second Page</a>
+                <a class="left_column_link" href="./pages/this_page_does_not_exist.html">Broken link to non-existant page</a>
+            </div>
+            <div id="index_main_content" class="main_content">
+                <h1 class="main_content_header">Main Content</h1>
+                <div class="main_content_paragraph">This is a section to contain content to be interacted with by Selenium</div>
+                <button class="action_button" onclick="fillActionTarget()">Click This to Make Something Happen</button>
+                <button class="action_button" onclick="emptyActionTarget()">Click This to Make Something Not Happen</button>
+                <div id="action_target" class="surprise_div" display="hidden"></div>
+            </div>
+        </div>
+        <footer>
+            <div id="index_page_footer" class="page_footer">Copyright Jacqueline Button 2021</div>
+        </footer>
+    </body>
+</html>
